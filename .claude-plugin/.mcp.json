@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "simple-rag": {
+      "command": "npm",
+      "args": ["run", "dev"],
+      "cwd": "/mnt/c/Users/Administrator/workspace/simplerag/mcp-server/"
+    }
+  }
+}
