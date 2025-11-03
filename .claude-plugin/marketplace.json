@@ -16,6 +16,13 @@
             "version": "0.0.1",
             "source": "./plugins/tech-translator",
             "category": "productivity"
+        }, 
+        {
+            "name": "simple-rag",
+            "description": "Access the knowledge database and document library",
+            "version": "0.0.1",
+            "source": "./plugins/simple-rag",
+            "category": "productivity"
         }
     ]
 }

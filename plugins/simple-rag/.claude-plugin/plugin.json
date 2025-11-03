@@ -1,0 +1,8 @@
+{
+  "name": "simple-rag",
+  "description": "Access the knowledge database and document library",
+  "version": "0.0.1",
+  "author": {
+    "name": "Claude Code Marketplace"
+  }
+}

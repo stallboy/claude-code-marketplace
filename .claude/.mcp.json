@@ -2,7 +2,7 @@
   "mcpServers": {
     "simple-rag": {
       "name": "simple-rag-plugin",
-      "description": "Plugin-specific MCP Server configuration",
+      "description": "Access the knowledge database and document library",
       "command": "http",
       "url": "http://localhost:8001/mcp",
       "headers": {
