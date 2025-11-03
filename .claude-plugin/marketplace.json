@@ -1,21 +1,21 @@
 {
-  "name": "thy-skills",
-  "owner": {
-    "name": "ai"
-  },
-  "metadata": {
-    "description": "thy skills",
-    "version": "0.0.1"
-  },
-  "plugins": [
-    {
-      "name": "translation-skills",
-      "description": "Collection of translation skills",
-      "source": "./",
-      "strict": false,
-      "skills": [
-        "./tech-translator"
-      ]
-    }
-  ]
+    "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+    "name": "thy",
+    "description": "Bundled plugins for game development",
+    "owner": {
+        "name": "ai group"
+    },
+    "metadata": {
+        "description": "thy skills",
+        "version": "0.0.1"
+    },
+    "plugins": [
+        {
+            "name": "tech-translator",
+            "description": "technical content translator",
+            "version": "0.0.1",
+            "source": "./plugins/tech-translator",
+            "category": "productivity"
+        }
+    ]
 }

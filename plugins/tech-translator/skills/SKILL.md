@@ -3,7 +3,7 @@ name: tech-translator
 description: This skill should be used when users need to translate technical documents, API documentation, academic papers, or any technical content while preserving technical accuracy and terminology. It specializes in maintaining technical rigor while ensuring readability in the target language.
 ---
 
-# Technical Translator
+# Tech Translator
 
 ## Overview
 
