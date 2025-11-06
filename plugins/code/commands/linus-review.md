@@ -1,4 +1,3 @@
-
 ---
 description: 以Linus Torvalds的风格进行代码审查，强调简洁性、实用性和向后兼容性
 ---
