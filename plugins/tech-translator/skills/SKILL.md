@@ -165,7 +165,6 @@ kubectl apply -f deployment.yaml
 2. **Apply translation rules**: Follow the technical term identification and translation rules strictly
 3. **Maintain document structure**: Preserve all formatting, code blocks, and structural elements
 4. **Ensure consistency**: Use the same translations for repeated terms throughout the document
-5. **Reference technical terms**: Consult the `references/technical_terms_glossary.md` for established translations
 
 ## Supported Document Types
 
@@ -176,12 +175,3 @@ kubectl apply -f deployment.yaml
 - Technical blog posts and articles
 - User manuals and technical specifications
 - Code comments and inline documentation
-
-## Resources
-
-This skill includes reference materials in the `references/` directory:
-
-- `technical_terms_glossary.md` - Comprehensive glossary of technical terms and their established translations
-- `translation_guidelines.md` - Detailed translation workflow and best practices
-
-Refer to these resources when encountering unfamiliar technical terms or complex translation scenarios.
