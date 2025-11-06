@@ -18,11 +18,11 @@
             "category": "productivity"
         }, 
         {
-            "name": "simple-rag",
-            "description": "Access the knowledge database and document library",
+            "name": "code",
+            "description": "code related plugins",
             "version": "0.0.1",
-            "source": "./plugins/simple-rag",
-            "category": "productivity"
+            "source": "./plugins/code",
+            "category": "code"
         }
     ]
 }

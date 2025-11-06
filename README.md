@@ -1,9 +1,5 @@
 # Claude Code Marketplace
 
-```
-/plugin marketplace https://github.com/stallboy/claude-code-marketplace
-```
-
 
 ## 安装rag
 
@@ -12,7 +8,16 @@ claude mcp add --transport http rag http://10.x.x.x:8001/mcp
 ```
 
 
-## Available Plugins
+
+## 添加插件市场
+```
+/plugin marketplace https://github.com/stallboy/claude-code-marketplace
+```
+
+
+
+
+## 安装插件
 
 ### 1. tech-translator (技术翻译插件)
 
