@@ -1,0 +1,15 @@
+{
+    "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+    "name": "config-gen",
+    "description": "Configuration table generator and manager for game development",
+    "version": "0.0.1",
+    "author": "ai group",
+    "category": "productivity",
+    "skills": [
+        {
+            "name": "config-gen",
+            "description": "Guide Claude Code to operate cfg_gen tool for querying and updating configuration tables",
+            "file": "skills/SKILL.md"
+        }
+    ]
+}

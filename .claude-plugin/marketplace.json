@@ -16,12 +16,19 @@
             "version": "0.0.1",
             "source": "./plugins/tech-translator",
             "category": "productivity"
-        }, 
+        },
         {
             "name": "simple-rag",
             "description": "Access the knowledge database and document library",
             "version": "0.0.1",
             "source": "./plugins/simple-rag",
+            "category": "productivity"
+        },
+        {
+            "name": "config-gen",
+            "description": "Configuration table generator and manager",
+            "version": "0.0.1",
+            "source": "./plugins/config-gen",
             "category": "productivity"
         }
     ]

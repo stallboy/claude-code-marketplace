@@ -10,6 +10,9 @@
         "Content-Type": "application/json"
       },
       "env": {
+        "WEAVIATE_HOST": "10.5.9.199",
+        "WEAVIATE_PORT": "8181",
+        "WEAVIATE_GRPC_PORT": "50051"
       },
       "timeout": 30000,
       "retry": {
