@@ -30,6 +30,13 @@
             "version": "0.0.1",
             "source": "./plugins/config-gen",
             "category": "productivity"
+        },
+        {
+            "name": "code",
+            "description": "code related plugins",
+            "version": "0.0.1",
+            "source": "./plugins/code",
+            "category": "code"
         }
     ]
 }
