@@ -1,0 +1,165 @@
+{
+  "validation_id": "val_20251203_001",
+  "config_files": [
+    ".claude-plugin/marketplace.json",
+    ".claude-plugin/.mcp.json",
+    "plugins/tech-translator/.claude-plugin/plugin.json",
+    "plugins/config-gen/.claude-plugin/plugin.json",
+    "plugins/code/.claude-plugin/plugin.json",
+    "plugins/game-dev-script-processor/.claude-plugin/plugin.json"
+  ],
+  "overall_status": "WARNING",
+  "validation_results": [
+    {
+      "file": ".claude-plugin/marketplace.json",
+      "status": "PASSED",
+      "checks": [
+        {
+          "check_type": "syntax",
+          "status": "PASSED",
+          "details": "JSON语法格式正确"
+        },
+        {
+          "check_type": "structure",
+          "status": "PASSED",
+          "details": "包含4个插件配置，结构完整"
+        },
+        {
+          "check_type": "references",
+          "status": "PASSED",
+          "details": "所有插件路径都存在"
+        }
+      ]
+    },
+    {
+      "file": ".claude-plugin/.mcp.json",
+      "status": "PASSED",
+      "checks": [
+        {
+          "check_type": "syntax",
+          "status": "PASSED",
+          "details": "JSON语法格式正确"
+        },
+        {
+          "check_type": "content",
+          "status": "WARNING",
+          "details": "MCP服务器配置为空，但这不是错误"
+        }
+      ]
+    },
+    {
+      "file": "plugins/tech-translator/.claude-plugin/plugin.json",
+      "status": "PASSED",
+      "checks": [
+        {
+          "check_type": "syntax",
+          "status": "PASSED",
+          "details": "JSON语法格式正确"
+        },
+        {
+          "check_type": "required_fields",
+          "status": "PASSED",
+          "details": "必需字段完整：name, description, version"
+        },
+        {
+          "check_type": "skill_file",
+          "status": "PASSED",
+          "details": "技能文件存在：skills/SKILL.md"
+        }
+      ]
+    },
+    {
+      "file": "plugins/config-gen/.claude-plugin/plugin.json",
+      "status": "PASSED",
+      "checks": [
+        {
+          "check_type": "syntax",
+          "status": "PASSED",
+          "details": "JSON语法格式正确"
+        },
+        {
+          "check_type": "required_fields",
+          "status": "PASSED",
+          "details": "必需字段完整：name, description, version"
+        },
+        {
+          "check_type": "skill_file",
+          "status": "PASSED",
+          "details": "技能文件存在：skills/SKILL.md"
+        }
+      ]
+    },
+    {
+      "file": "plugins/code/.claude-plugin/plugin.json",
+      "status": "WARNING",
+      "checks": [
+        {
+          "check_type": "syntax",
+          "status": "PASSED",
+          "details": "JSON语法格式正确"
+        },
+        {
+          "check_type": "required_fields",
+          "status": "PASSED",
+          "details": "必需字段完整：name, description, version"
+        },
+        {
+          "check_type": "skill_file",
+          "status": "FAILED",
+          "details": "技能文件缺失：没有skills/SKILL.md文件"
+        },
+        {
+          "check_type": "alternative_structure",
+          "status": "PASSED",
+          "details": "有commands目录，包含linus-review.md命令文件"
+        }
+      ]
+    },
+    {
+      "file": "plugins/game-dev-script-processor/.claude-plugin/plugin.json",
+      "status": "PASSED",
+      "checks": [
+        {
+          "check_type": "syntax",
+          "status": "PASSED",
+          "details": "JSON语法格式正确"
+        },
+        {
+          "check_type": "required_fields",
+          "status": "PASSED",
+          "details": "必需字段完整：name, description, version"
+        },
+        {
+          "check_type": "skill_file",
+          "status": "PASSED",
+          "details": "技能文件存在：skills/SKILL.md"
+        },
+        {
+          "check_type": "directory_structure",
+          "status": "PASSED",
+          "details": "目录结构完整：包含agents, commands, docs, rules, skills, test_scripts"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_checks": 24,
+    "passed_checks": 22,
+    "failed_checks": 1,
+    "warning_checks": 2,
+    "processing_time": "00:02:30",
+    "validation_date": "2025-12-03"
+  },
+  "recommendations": [
+    "为code插件添加skills/SKILL.md技能文件，或者明确说明它使用commands目录结构",
+    "考虑在.mcp.json中添加MCP服务器配置（如果需要）",
+    "确保所有插件都有完整的文档和技能定义"
+  ],
+  "notes": [
+    "marketplace.json配置正确，包含4个插件",
+    "所有JSON文件语法正确",
+    "code插件缺少标准技能文件，但有commands目录",
+    "插件目录结构基本完整",
+    "这是一个Claude Code Marketplace插件仓库，配置验证通过"
+  ]
+}

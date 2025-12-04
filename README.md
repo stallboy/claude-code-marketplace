@@ -28,7 +28,7 @@ claude mcp add --transport http rag http://10.x.x.x:8001/mcp
 ```
 
 
-### 1. code 
+### 2. code
 
 代码相关
 
@@ -36,4 +36,12 @@ claude mcp add --transport http rag http://10.x.x.x:8001/mcp
 
 ```bash
 /plugin install code@claude-code-marketplace
+```
+
+### 3. game-dev-script-processor (游戏开发剧本处理器)
+
+专为游戏开发设计的剧本处理器，能够将剧本文件自动转换为游戏配置文件。支持大型剧本文件的分块处理、配置验证和进度跟踪。
+
+```bash
+/plugin install game-dev-script-processor@claude-code-marketplace
 ```

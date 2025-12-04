@@ -1,0 +1,48 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [{
+          "type": "command",
+          "command": "bash /mnt/c/Users/Administrator/workspace/claude-code-marketplace/plugins/game-dev-script-processor/scripts/hooks/validate-write-edit.sh"
+        }]
+      },
+      {
+        "matcher": "Bash",
+        "hooks": [{
+          "type": "command",
+          "command": "bash /mnt/c/Users/Administrator/workspace/claude-code-marketplace/plugins/game-dev-script-processor/scripts/hooks/validate-bash.sh"
+        }]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Task",
+        "hooks": [{
+          "type": "command",
+          "command": "bash /mnt/c/Users/Administrator/workspace/claude-code-marketplace/plugins/game-dev-script-processor/scripts/hooks/validate-task-completion.sh"
+        }]
+      },
+      {
+        "matcher": "Write|Edit",
+        "hooks": [{
+          "type": "command",
+          "command": "bash /mnt/c/Users/Administrator/workspace/claude-code-marketplace/plugins/game-dev-script-processor/scripts/hooks/validate-write-edit.sh"
+        }]
+      }
+    ],
+    "SessionStart": [{
+      "hooks": [{
+        "type": "command",
+        "command": "bash /mnt/c/Users/Administrator/workspace/claude-code-marketplace/plugins/game-dev-script-processor/scripts/hooks/session-start.sh"
+      }]
+    }],
+    "PreCompact": [{
+      "hooks": [{
+        "type": "command",
+        "command": "bash /mnt/c/Users/Administrator/workspace/claude-code-marketplace/plugins/game-dev-script-processor/scripts/hooks/pre-compact.sh"
+      }]
+    }]
+  }
+}

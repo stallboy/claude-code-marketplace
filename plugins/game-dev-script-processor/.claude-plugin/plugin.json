@@ -1,0 +1,14 @@
+{
+  "name": "game-dev-script-processor",
+  "version": "1.0.0",
+  "description": "游戏开发剧本处理器 - 通过剧本生成游戏配置文件",
+  "author": {
+    "name": "Si Kong",
+    "email": "example@example.com",
+    "url": "https://example.com"
+  },
+  "homepage": "https://github.com/username/game-dev-script-processor",
+  "repository": "https://github.com/username/game-dev-script-processor",
+  "license": "MIT",
+  "keywords": ["game-dev", "script", "config", "converter"]
+}
