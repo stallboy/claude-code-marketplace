@@ -24,12 +24,11 @@ model: opus
 
 请提供：
 1. 剧本目录路径（必需）
-2. 输出目录路径（可选，默认Main/AIWork）
-3. 工作目录路径（可选，默认为.work）
-4. 规则目录路径（可选，默认为在剧本目录下自动查找rule_*.md）
+2. 工作目录路径（可选，默认为.work）
+3. 规则目录路径（可选，默认为在剧本目录下自动查找rule_*.md）
 
 或者使用参数：
-/script-to-config --script-dir Doc/剧本_md_dir --output-dir Main/AIWork/_video_video --work-dir .work
+/script-to-config --script-dir Doc/剧本_md_dir --rule-dir Main/AIWork --work-dir .work
 ```
 
 ## 命令功能
@@ -44,9 +43,8 @@ model: opus
 
 ### 参数支持
 - `--script-dir`: 剧本目录路径（必需）
-- `--output-dir`: 输出目录路径（必需）
-- `--work-dir`: 工作目录路径（可选，默认为.work）
 - `--rule-dir`: 规则目录路径（可选）
+- `--work-dir`: 工作目录路径（可选，默认为.work）
 - `--analysis`: 开始处理签是否需要解析剧本格式（可选）
 - `--chunk-size`: 分块大小配置（可选，默认10000）
 
