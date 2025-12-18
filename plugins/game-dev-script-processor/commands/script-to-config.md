@@ -1,5 +1,6 @@
 ---
 name: script-to-config
+allowed_tools: mcp__cfg_mcp
 description: 剧本到配置文件转换命令 - 通过剧本生成游戏配置文件
 model: opus
 ---
@@ -317,7 +318,7 @@ model: opus
 [阶段1] 设置工作目录: .work
 查找转换规则文件: rule_trans_*.md
 找到2个转换规则文件: rule_trans_1.md, rule_trans_item.md
-发现7个剧本文件，总计6573行。编码偏移值: 0
+发现7个剧本文件，总计6573行。
 
 [阶段2] 启动剧本格式分析器...
 分析剧本文件格式和结构
@@ -338,11 +339,11 @@ model: opus
 [阶段4] 开始文件转换处理...
 根据格式说明映射元素到配置文件
 处理 .work/剧本第一章_001.md.chunk/chunk_01.md
-调用 file-transformer 子代理, 编码偏移值: 0
+调用 file-transformer 子代理
 转换成功, 最大编码15
 
 处理 .work/剧本第一章_001.md.chunk/chunk_02.md
-调用 file-transformer 子代理, 编码偏移值: 0
+调用 file-transformer 子代理
 转换成功，最大编码: 23
 
 [处理中] 正在处理分块 20/35 (57%完成)

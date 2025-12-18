@@ -1,7 +1,8 @@
 ---
 name: config-table-locator
 description: 游戏配置表定位器 - 通过 MCP Server 查找游戏项目中与特定功能相关的配置表文件
-tools: mcp_*
+tools: Read, Write, Edit, Glob, Grep, Bash, TodoWrite, Task, mcp__cfg_mcp
+allowed_tools: mcp__cfg_mcp
 model: sonnet
 ---
 

@@ -1,6 +1,8 @@
 ---
 name: simple-config
 description: 通用目的规划执行命令 - 通过分析配置表结构规划用户指定的简单任务
+argument-hint: task
+allowed_tools: mcp__cfg_mcp
 model: opus
 ---
 

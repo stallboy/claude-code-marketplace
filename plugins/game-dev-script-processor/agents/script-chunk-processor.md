@@ -1,6 +1,7 @@
 ---
 description: 剧本分块处理器 - 处理大型剧本文件的分块转换
 tools: Read, Write, Edit, Glob, Grep, Bash, TodoWrite, Task
+allowed_tools: mcp__cfg_mcp
 model: opus
 ---
 

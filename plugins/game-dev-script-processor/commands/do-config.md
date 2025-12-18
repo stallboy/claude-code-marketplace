@@ -1,6 +1,8 @@
 ---
 name: do-config
+argument-hint: task
 description: 通用工作目录规划器 - 通过深入研究和交互式规划制定详细执行计划
+allowed_tools: mcp__cfg_mcp
 model: opus
 ---
 

@@ -1,6 +1,7 @@
 ---
 description: 剧本格式分析器 - 识别剧本文件的结构和格式，生成格式说明文档
-tools: Read, Write, Edit, Glob, Grep, Bash, TodoWrite, Task
+tools: Read, Write, Edit, Glob, Grep, Bash, TodoWrite, Task, mcp__cfg_mcp
+allowed_tools: mcp__cfg_mcp, Read, TodoWrite, Bash, Write
 model: opus
 ---
 

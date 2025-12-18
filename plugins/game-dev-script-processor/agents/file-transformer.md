@@ -1,6 +1,7 @@
 ---
 description: 文件转换器 - 根据规则文件转换输入文件并生成输出文件
 tools: Read, Write, Edit, Glob, Grep, Bash, TodoWrite, Task, WebSearch, WebFetch
+allowed_tools: mcp__cfg_mcp
 model: opus
 ---
 
@@ -134,20 +135,18 @@ Task("文件转换",
   "processing_state": {
     "current_numbering": 25,        // 当前最新编号
     "starting_number": 10,          // 起始编号
+    "end_number": 25,
     "total_items_processed": 15,     // 已处理项目总数
     "additional_rules_applied": [    // 应用的附加规则列表
-      "编号偏移1000",
       "跳过空行",
       "保留注释"
     ],
-    "last_processing_step": "编号重置完成"  // 最后处理步骤
   }
 }
 ```
 
 ### 附加规则示例
 调用方可以传递的常见附加规则：
-- **编号控制**：`编号偏移1000`、`编号无偏移`
 - **空行处理**：`跳过空行`、`保留空行`
 - **注释处理**：`保留注释`、`删除注释`
 - **格式控制**：`格式缩进`、`压缩输出`

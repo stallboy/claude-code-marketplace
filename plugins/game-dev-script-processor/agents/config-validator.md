@@ -1,6 +1,7 @@
 ---
 description: 配置验证器 - 验证生成配置文件的完整性和正确性
-tools: Read, Write, Edit, Glob, Grep, Bash, TodoWrite, Task
+tools: Read, Write, Edit, Glob, Grep, Bash, TodoWrite, Task, mcp__cfg_mcp
+allowed_tools: mcp__cfg_mcp
 model: haiku
 ---
 
